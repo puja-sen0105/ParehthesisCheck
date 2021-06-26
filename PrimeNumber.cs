@@ -13,7 +13,7 @@ namespace ParehthesisCheck
             if (num % 2 == 0) { return false; }
             for(int i = 3; i < num / 2; i += 2)
             {
-                if (num % i == 0) 
+                if (num % i == 0)  
                 {
                     flag = false; 
                 }
